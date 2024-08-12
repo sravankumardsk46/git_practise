@@ -1,0 +1,13 @@
+############git branches#############
+
+git branch branchname     { create}
+
+git branch -a   to shoe origin remotmain /local main
+
+git checkout    to chenge the branch 
+
+
+git checkout -b branchname      to create new branch and go there 
+
+git switch        to chenge branch to main
+
