@@ -22,7 +22,10 @@ touch day1 {to createfile}
 git add .   { untraced file then will traced}
 git commit -m "massege'  {this for commit messege to create new id }
 git push  { all r add to git origin main}
-git status
+git status   
+
+
+
 
 git log --online      { its show u whtereis head pointed }
 we have main locally and origin main remoteli its show us
