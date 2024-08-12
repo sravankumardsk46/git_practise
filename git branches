@@ -25,6 +25,10 @@ frist u created manuvalli one file origin main then com back to
 to go to local machin create one touch file then add and commit it push but it REJECTED becouse nedd PULL
 
 
-git pull
+git pull ......it is not woking
+
+git fetch  { it can take that chenges only}
+git merge   { it can downlode that chenges to our local machine }
+now REJECTED working git push
 
  
