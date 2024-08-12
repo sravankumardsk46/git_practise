@@ -17,4 +17,14 @@ git pull : it going to check any code avilable in remote repository so pull it a
 git fetch : it is going to check any chenges in remote repocan pull it but not merge
 
 git pull = git fetch + git merge
+
+
+
+@############ REJECTED ########
+frist u created manuvalli one file origin main then com back to 
+to go to local machin create one touch file then add and commit it push but it REJECTED becouse nedd PULL
+
+
+git pull
+
  
