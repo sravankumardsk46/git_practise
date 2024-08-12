@@ -42,3 +42,14 @@ git push origin DEVOLOP   { now check its pass to remote origin}
 
 
 
+
+now i am manuall merge devlop.txt to main  but it not show u in local machin do dommnad
+
+
+git pull 
+
+ git pull <remote> <branch>
+git branch --set-upstream-to=origin/<branch> gitbranch
+
+
+
