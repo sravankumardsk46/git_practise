@@ -31,4 +31,21 @@ git fetch  { it can take that chenges only}
 git merge   { it can downlode that chenges to our local machine }
 now REJECTED working git push
 
+#########################git stash and git stash apply ##############
+
+touch hide
+git add . then only traced we will hid file
+git stash  file will hide
+git stash apply  file will shows
+
+################## HEAD SOFT /HARD #################
+touch softheadfile
+git add .
+git commit -m " added"
+#### so now check
+git log --oneline
+git reset --soft HEAD~1     this latest commit id is gone working and staging area undo
+git reset --hard HEAD~1      this latest comit id never comeback undu from working dir and staging area
+
+######################gitignore #########################
  
