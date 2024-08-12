@@ -1,0 +1,41 @@
+........comands.......... 
+git config --global --edit                    {this show u our maile and user name}
+
+git commit --amend --reset-author             {i think this is reset option to read }
+
+git config --global user.name "sravankumar1111"    {this is metion user name wen u new start git login }
+
+git config --global user.email "sravankumar1111@gmail.com"  { to set ur email
+
+
+                 OR
+ssh-keygen -t rsa                                { to create ssh key command}
+enter enter enter then 
+cat pub-key                                         {copy that public key in our server created then go to git hub}
+## go to git gub section clic setting inthere shoe us ssgkeygen gpg ......above rgite side show u new key inthere put copy key###
+
+### some git command 
+
+workingdirectory...git add . staging =area git commit m "commit messege" local repo /remote repo
+
+touch day1 {to createfile}
+git add .   { untraced file then will traced}
+git commit -m "massege'  {this for commit messege to create new id }
+git push  { all r add to git origin main}
+git status
+
+git log --online      { its show u whtereis head pointed }
+we have main locally and origin main remoteli its show us
+
+git branch   { it show u how many branches in aour local}
+
+git branch -a   { it is shows main ...that local and originmain/originhead ...remote
+
+git branch DEVELOP    { this si to create new branch}
+
+git add , git commit -m "" BUT { it not show u git status ....to push origin main}
+# now use command to bush branch remotely
+git push origin DEVOLOP   { now check its pass to remote origin}
+
+
+
