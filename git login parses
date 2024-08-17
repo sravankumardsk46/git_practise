@@ -1,4 +1,14 @@
-........comands.......... 
+........comands..........
+#Run the following commands to unset the user name and email
+git config --global --unset user.name
+git config --global --unset user.email
+
+#This will remove the global configuration for the user name and email. If these settings are specific to a particular repository, remove the --global flag:
+git config --unset user.name
+git config --unset user.email
+
+git config --list
+
 git config --global --edit                    {this show u our maile and user name}
 
 git commit --amend --reset-author             {i think this is reset option to read }
